@@ -9,5 +9,5 @@ metadata:
     github.com/project-slug: roadiehq/sample-service
 spec:
   type: service
-  owner: my-team-name
+  owner: CloudOps
   lifecycle: production
