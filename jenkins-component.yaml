@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-name: jenkins
-description: demo
-links:
-- url: http://34.125.87.26:8080/
-title: My Dashboard
-icon: dashboard
-annotations:
-jenkins.io/job-full-name: test1
+  name: jenkins
+  description: demo
+  links:
+    - url: http://34.125.87.26:8080/
+      title: My Dashboard
+      icon: dashboard
+  annotations:
+    jenkins.io/job-full-name: test1
 spec:
-type: website
-lifecycle: production
-owner: spandan
+  type: website
+  lifecycle: production
+  owner: spandan
