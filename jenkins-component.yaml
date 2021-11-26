@@ -8,7 +8,7 @@ metadata:
       title: My Dashboard
       icon: dashboard
   annotations:
-    jenkins.io/job-full-name: backstage-sample
+    jenkins.io/job-full-name: job/backstage-sample
 spec:
   type: website
   lifecycle: production
