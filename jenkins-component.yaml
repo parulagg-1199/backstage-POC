@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: jenkins
+  name: jenkins-demo
   description: demo
   links:
     - url: http://34.125.79.12:8080/
