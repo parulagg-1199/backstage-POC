@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=nginx'
+spec:
+  type: service
+  lifecycle: production
+  owner: Parul
