@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: kubernetes
+  name: kubernetes-demo
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=nginx'
 spec:
